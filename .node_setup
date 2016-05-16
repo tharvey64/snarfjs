@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$1" == "set" ]; then
+    export OLD_NODE_PATH="$NODE_PATH"
+    export NODE_PATH="$NODE_PATH:$HOME/Byte/BA-Projects/exercise-editor/retractorjs"
+elif [ "$1" == "unset" ]; then
+    if [ $OLD_NODE_PATH ]; then
+        export NODE_PATH="$OLD_NODE_PATH"
+        unset OLD_NODE_PATH
+    fi
+fi
