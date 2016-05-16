@@ -1,0 +1,22 @@
+{
+  "name": "retractor",
+  "version": "1.0.0",
+  "description": "Package for building custom test suites for jasmine.",
+  "main": "./lib/retractor.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tharvey64/retractorjs.git#master"
+  },
+  "keywords": [
+    "['retractor']"
+  ],
+  "author": "{\"name\": \"Thomas Harvey\"}",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharvey64/retractorjs/issues"
+  },
+  "homepage": "https://github.com/tharvey64/retractorjs/tree/master#readme"
+}
