@@ -1,2 +1,2 @@
-export.buildMatchers = require('./jasmine-custom-matchers');
-export.buildTestSuite = require('./test-build');
+exports.buildMatchers = require('./jasmine-custom-matchers');
+exports.buildTestSuite = require('./test-build');
