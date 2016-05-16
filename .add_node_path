@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ "$1" == "set" ]; then
     export OLD_NODE_PATH="$NODE_PATH"
