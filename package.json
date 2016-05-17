@@ -1,8 +1,8 @@
 {
-  "name": "retractor",
+  "name": "snarf",
   "version": "1.0.0",
   "description": "Package for building custom test suites for jasmine.",
-  "main": "./lib/retractor.js",
+  "main": "./lib/snarf.js",
   "scripts": {
     "test": "test"
   },
