@@ -1,6 +1,6 @@
 {
   "name": "snarf",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Package for building custom test suites for jasmine.",
   "main": "./lib/snarf.js",
   "scripts": {
